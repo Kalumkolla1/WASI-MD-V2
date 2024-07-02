@@ -32,7 +32,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDj
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/1f4e6e1cc2ed1662adb36.jpg";
 global.devs = "923135673658";
 global.sudo = process.env.SUDO || "923192173398";
-global.owner = process.env.OWNER_NUMBER || "94717388437";
+global.owner = process.env.OWNER_NUMBER || "94755666349";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -62,7 +62,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2😍",
+  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝓚𝓓_𝓑𝓡𝓞-𝐌𝐃-𝐕2😍",
   author: process.env.PACK_AUTHER || "WASO",
   packname: process.env.PACK_NAME || "✌️𝓚𝓓_𝓑𝓡𝓞✌️",
   botname: process.env.BOT_NAME || "✌️𝓚𝓓_𝓑𝓡𝓞✌️",
@@ -79,7 +79,7 @@ module.exports = {
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   AUTOREACTION: process.env.AUTOREACTION || process.env.AUTOREACTION || "true",
-  LANG: (process.env.THEME || "WASI").toUpperCase(),
+  LANG: (process.env.THEME || "𝓚𝓓_𝓑𝓡𝓞").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
