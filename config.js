@@ -50,7 +50,7 @@ global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 global.autoreaction = process.env.autoreaction || "false";
-
+global.gurl = process.env.GURL || "";
 global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://pair-qr-wasi-md.onrender.com";
 
@@ -64,7 +64,7 @@ module.exports = {
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2😍",
   author: process.env.PACK_AUTHER || "WASO",
-  packname: process.env.PACK_NAME || "♥️",
+  packname: process.env.PACK_NAME || "✌️𝓚𝓓_𝓑𝓡𝓞✌️",
   botname: process.env.BOT_NAME || "✌️𝓚𝓓_𝓑𝓡𝓞✌️",
   ownername: process.env.OWNER_NAME || "✌️𝓚𝓓_𝓑𝓡𝓞✌️",
   errorChat: process.env.ERROR_CHAT || "923192173398",
